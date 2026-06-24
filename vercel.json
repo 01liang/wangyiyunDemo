@@ -6,6 +6,6 @@
       "status": 200
     }
   ],
-  "buildCommand": "npm install --registry=https://registry.npmmirror.com && npm run build",
-  "installCommand": "npm install --registry=https://registry.npmmirror.com"
+  "buildCommand": "npm install && npm run build",
+  "installCommand": "npm install"
 }
