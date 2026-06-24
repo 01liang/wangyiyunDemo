@@ -6,6 +6,6 @@
       "status": 200
     }
   ],
-  "buildCommand": "npm run vercel-build",
-  "installCommand": "npm install"
+  "buildCommand": "npm install --registry=https://registry.npmmirror.com && npm run build",
+  "installCommand": "npm install --registry=https://registry.npmmirror.com"
 }
