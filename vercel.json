@@ -6,6 +6,6 @@
       "status": 200
     }
   ],
-  "buildCommand": "npm config set registry https://registry.npmjs.org && npm config delete registry && npm install && npm run build",
-  "installCommand": "npm config set registry https://registry.npmjs.org && npm install"
+  "buildCommand": "npm install --legacy-peer-deps && npm run build",
+  "installCommand": "npm install --legacy-peer-deps"
 }
