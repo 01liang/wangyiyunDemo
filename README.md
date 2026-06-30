@@ -146,8 +146,7 @@
 
 - `Node.js`：利用 `Express` 搭建的本地测试服务器
 - `axios`：用来请求后端 `API` 音乐数据
-- [NeteaseCloudMusicApi](https://binaryify.github.io/NeteaseCloudMusicApi/#/)：网易云音乐 `NodeJS` 版 `API`，提供音乐数据
-- 也可以使用已经部署到服务器上的网易云接口: http://123.57.176.198:3000/
+
 
 ### 其他工具
 
@@ -158,7 +157,6 @@
 ## 构建项目
 - 克隆代码到本地之后，需要运行 NeteaseCloudMusicApi，来起一个音乐的 API 接口。(**可选)**
 - 如果需要在服务器上搭建的话就需要将 API 放到自己的服务器上面。(**可选)**
-- 已经部署到服务器的网易云音乐接口: http://39.102.36.212:3000/ (**默认的API接口**)
 
 ``` powershell
 # yarn dependencies
@@ -171,11 +169,6 @@ yarn satrt  | npm satrt
 yarn build  |  npm build
 ```
 
-
-## 感谢
-
-- 非常感谢[王红元](https://github.com/coderwhy)老师的，React核心技术实战让我学习到很多 react 的知识。
-- 非常感谢后台提供者[Binaryify](https://github.com/Binaryify/NeteaseCloudMusicApi), 接口很稳定，文档很完善
 
 - ["本项目 CDN 加速及安全防护由 Tencent EdgeOne 赞助"](https://edgeone.ai/)
 
