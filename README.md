@@ -166,9 +166,3 @@ yarn satrt  | npm satrt
 yarn build  |  npm build
 ```
 
-
-- ["本项目 CDN 加速及安全防护由 Tencent EdgeOne 赞助"](https://edgeone.ai/)
-
-
-## 最后
-如果觉得项目还不错的话 👏，就给个 star ⭐ 鼓励一下吧~
